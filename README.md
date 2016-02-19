@@ -8,10 +8,16 @@ For project 16bit_binary_clock_explorer16, you will need the following items:
 For project overview read the readmeplease.pptx file at ...........\kapitandodingdaga\PIC24FJ128GA010\16bit_binary_clock_explorer16.X
 
 1.) PIC24FJ128GA010 MCU PIM 
+
 2.) XC16 Compiler http://www.microchip.com/mplab/compilers
+
 3.) PIC24/dsPIC Peripheral Libraries v2.00 – Windows 
+
 4.) Microchip Explorer 16 Board
+
 5.) Microchip ICD-3
+
 6.) Microchip MCP2200
+
 7.) Serial Terminal such as Real Term
 
