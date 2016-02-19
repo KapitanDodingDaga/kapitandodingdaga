@@ -1,0 +1,920 @@
+<html>
+<head>
+   <title>PIC24F MCUs Interrupt Vectors</title>
+   <style type="text/css">
+     h2 { font-family:sans-serif;
+          color:#CC0000 }
+     p  { font-family:sans-serif;
+          font-size:10pt }
+     p.code  { font-family:monospace;
+               font-size:10pt }
+     th { font-family:sans-serif;
+          font-size:10pt;
+          color:#FFFFFF }
+     td { font-family:sans-serif;
+          font-size:10pt }
+   </style>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#3300FF" vlink="#3399FF" alink="#3399FF">
+
+<h2>PIC24F MCUs Interrupt Vectors</h2>
+
+<p>
+The table below specifies the interrupt vectors for these 16-bit devices.
+</p>
+
+<table border=1 cols=3 cellpadding=4>
+
+<tr bgcolor="#808080">
+ <th>IRQ#</th>
+ <th>Primary Name</th>
+ <th>Alternate Name</th>
+ <th>Vector Function</th>
+</tr>
+
+<tr>
+ <td>N/A</td>
+ <td>_ReservedTrap0</td>
+ <td>_AltReservedTrap0</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>N/A</td>
+ <td>_OscillatorFail</td>
+ <td>_AltOscillatorFail</td>
+ <td>Oscillator fail trap</td>
+</tr>
+
+<tr>
+ <td>N/A</td>
+ <td>_AddressError</td>
+ <td>_AltAddressError</td>
+ <td>Address error trap</td>
+</tr>
+
+<tr>
+ <td>N/A</td>
+ <td>_StackError</td>
+ <td>_AltStackError</td>
+ <td>Stack error trap</td>
+</tr>
+
+<tr>
+ <td>N/A</td>
+ <td>_MathError</td>
+ <td>_AltMathError</td>
+ <td>Math error trap</td>
+</tr>
+
+<tr>
+ <td>N/A</td>
+ <td>_ReservedTrap5</td>
+ <td>_AltReservedTrap5</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>N/A</td>
+ <td>_ReservedTrap6</td>
+ <td>_AltReservedTrap6</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>N/A</td>
+ <td>_ReservedTrap7</td>
+ <td>_AltReservedTrap7</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>0</td>
+ <td>_INT0Interrupt</td>
+ <td>_AltINT0Interrupt</td>
+ <td>INT0 External interrupt 0</td>
+</tr>
+
+<tr>
+ <td>1</td>
+ <td>_IC1Interrupt</td>
+ <td>_AltIC1Interrupt</td>
+ <td>IC1 Input Capture 1</td>
+</tr>
+
+<tr>
+ <td>2</td>
+ <td>_OC1Interrupt</td>
+ <td>_AltOC1Interrupt</td>
+ <td>OC1 Output Compare 1</td>
+</tr>
+
+<tr>
+ <td>3</td>
+ <td>_T1Interrupt</td>
+ <td>_AltT1Interrupt</td>
+ <td>TMR1 Timer 1 expired</td>
+</tr>
+
+<tr>
+ <td>4</td>
+ <td>_Interrupt4</td>
+ <td>_AltInterrupt4</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>5</td>
+ <td>_IC2Interrupt</td>
+ <td>_AltIC2Interrupt</td>
+ <td>IC2 Input Capture 2</td>
+</tr>
+
+<tr>
+ <td>6</td>
+ <td>_OC2Interrupt</td>
+ <td>_AltOC2Interrupt</td>
+ <td>OC2 Output Compare 2</td>
+</tr>
+
+<tr>
+ <td>7</td>
+ <td>_T2Interrupt</td>
+ <td>_AltT2Interrupt</td>
+ <td>TMR2 Timer 2 expired</td>
+</tr>
+
+<tr>
+ <td>8</td>
+ <td>_T3Interrupt</td>
+ <td>_AltT3Interrupt</td>
+ <td>TMR3 Timer 3 expired</td>
+</tr>
+
+<tr>
+ <td>9</td>
+ <td>_SPI1ErrInterrupt</td>
+ <td>_AltSPI1ErrInterrupt</td>
+ <td>SPI1 error interrupt</td>
+</tr>
+
+<tr>
+ <td>10</td>
+ <td>_SPI1Interrupt</td>
+ <td>_AltSPI1Interrupt</td>
+ <td>SPI1 transfer completed interrupt</td>
+</tr>
+
+<tr>
+ <td>11</td>
+ <td>_U1RXInterrupt</td>
+ <td>_AltU1RXInterrupt</td>
+ <td>UART1RX Uart 1 Receiver</td>
+</tr>
+
+<tr>
+ <td>12</td>
+ <td>_U1TXInterrupt</td>
+ <td>_AltU1TXInterrupt</td>
+ <td>UART1TX Uart 1 Transmitter</td>
+</tr>
+
+<tr>
+ <td>13</td>
+ <td>_ADC1Interrupt</td>
+ <td>_AltADC1Interrupt</td>
+ <td>ADC 1 convert completed</td>
+</tr>
+
+<tr>
+ <td>14</td>
+ <td>_Interrupt14</td>
+ <td>_AltInterrupt14</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>15</td>
+ <td>_Interrupt15</td>
+ <td>_AltInterrupt15</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>16</td>
+ <td>_SI2C1Interrupt</td>
+ <td>_AltSI2C1Interrupt</td>
+ <td>Slave I2C™ interrupt 1</td>
+</tr>
+
+<tr>
+ <td>17</td>
+ <td>_MI2C1Interrupt</td>
+ <td>_AltMI2C1Interrupt</td>
+ <td>Master I2C interrupt 1</td>
+</tr>
+
+<tr>
+ <td>18</td>
+ <td>_CompInterrupt</td>
+ <td>_AltCompInterrupt</td>
+ <td>Comparator interrupt</td>
+</tr>
+
+<tr>
+ <td>19</td>
+ <td>_CNInterrupt</td>
+ <td>_AltCNInterrupt</td>
+ <td>CN Input change interrupt</td>
+</tr>
+
+<tr>
+ <td>20</td>
+ <td>_INT1Interrupt</td>
+ <td>_AltINT1Interrupt</td>
+ <td>INT1 External interrupt 1</td>
+</tr>
+
+<tr>
+ <td>21</td>
+ <td>_Interrupt21</td>
+ <td>_AltInterrupt21</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>22</td>
+ <td>_Interrupt22</td>
+ <td>_AltInterrupt22</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>23</td>
+ <td>_Interrupt23</td>
+ <td>_AltInterrupt23</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>24</td>
+ <td>_Interrupt24</td>
+ <td>_AltInterrupt24</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>25</td>
+ <td>_OC3Interrupt</td>
+ <td>_AltOC3Interrupt</td>
+ <td>OC3 Output Compare 3</td>
+</tr>
+
+<tr>
+ <td>26</td>
+ <td>_OC4Interrupt</td>
+ <td>_AltOC4Interrupt</td>
+ <td>OC4 Output Compare 4</td>
+</tr>
+
+<tr>
+ <td>27</td>
+ <td>_T4Interrupt</td>
+ <td>_AltT4Interrupt</td>
+ <td>TMR4 Timer 4 expired</td>
+</tr>
+
+<tr>
+ <td>28</td>
+ <td>_T5Interrupt</td>
+ <td>_AltT5Interrupt</td>
+ <td>TMR5 Timer 5 expired</td>
+</tr>
+
+<tr>
+ <td>29</td>
+ <td>_INT2Interrupt</td>
+ <td>_AltINT2Interrupt</td>
+ <td>INT2 External interrupt 2</td>
+</tr>
+
+<tr>
+ <td>30</td>
+ <td>_U2RXInterrupt</td>
+ <td>_AltU2RXInterrupt</td>
+ <td>UART2RX Uart 2 Receiver</td>
+</tr>
+
+<tr>
+ <td>31</td>
+ <td>_U2TXInterrupt</td>
+ <td>_AltU2TXInterrupt</td>
+ <td>UART2TX Uart 2 Transmitter</td>
+</tr>
+
+<tr>
+ <td>32</td>
+ <td>_SPI2ErrInterrupt</td>
+ <td>_AltSPI2ErrInterrupt</td>
+ <td>SPI2 error interrupt</td>
+</tr>
+
+<tr>
+ <td>33</td>
+ <td>_SPI2Interrupt</td>
+ <td>_AltSPI2Interrupt</td>
+ <td>SPI2 transfer completed interrupt</td>
+</tr>
+
+<tr>
+ <td>34</td>
+ <td>_Interrupt34</td>
+ <td>_AltInterrupt34</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>35</td>
+ <td>_Interrupt35</td>
+ <td>_AltInterrupt35</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>36</td>
+ <td>_Interrupt36</td>
+ <td>_AltInterrupt36</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>37</td>
+ <td>_IC3Interrupt</td>
+ <td>_AltIC3Interrupt</td>
+ <td>IC3 Input Capture 3</td>
+</tr>
+
+<tr>
+ <td>38</td>
+ <td>_IC4Interrupt</td>
+ <td>_AltIC4Interrupt</td>
+ <td>IC4 Input Capture 4</td>
+</tr>
+
+<tr>
+ <td>39</td>
+ <td>_IC5Interrupt</td>
+ <td>_AltIC5Interrupt</td>
+ <td>IC5 Input Capture 5</td>
+</tr>
+
+<tr>
+ <td>40</td>
+ <td>_Interrupt40</td>
+ <td>_AltInterrupt40</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>41</td>
+ <td>_OC5Interrupt</td>
+ <td>_AltOC5Interrupt</td>
+ <td>OC5 Output Compare 5</td>
+</tr>
+
+<tr>
+ <td>42</td>
+ <td>_Interrupt42</td>
+ <td>_AltInterrupt42</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>43</td>
+ <td>_Interrupt43</td>
+ <td>_AltInterrupt43</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>44</td>
+ <td>_Interrupt44</td>
+ <td>_AltInterrupt44</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>45</td>
+ <td>_PMPInterrupt</td>
+ <td>_AltPMPInterrupt</td>
+ <td>Parallel master port interrupt</td>
+</tr>
+
+<tr>
+ <td>46</td>
+ <td>_Interrupt46</td>
+ <td>_AltInterrupt46</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>47</td>
+ <td>_Interrupt47</td>
+ <td>_AltInterrupt47</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>48</td>
+ <td>_Interrupt48</td>
+ <td>_AltInterrupt48</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>49</td>
+ <td>_SI2C2Interrupt</td>
+ <td>_AltSI2C2Interrupt</td>
+ <td>Slave I2C™ interrupt 2</td>
+</tr>
+
+<tr>
+ <td>50</td>
+ <td>_MI2C2Interrupt</td>
+ <td>_AltMI2C2Interrupt</td>
+ <td>Master I2C interrupt 2</td>
+</tr>
+
+<tr>
+ <td>51</td>
+ <td>_Interrupt51</td>
+ <td>_AltInterrupt51</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>52</td>
+ <td>_Interrupt52</td>
+ <td>_AltInterrupt52</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>53</td>
+ <td>_INT3Interrupt</td>
+ <td>_AltINT3Interrupt</td>
+ <td>INT3 External interrupt 3</td>
+</tr>
+
+<tr>
+ <td>54</td>
+ <td>_INT4Interrupt</td>
+ <td>_AltINT4Interrupt</td>
+ <td>INT4 External interrupt 4</td>
+</tr>
+
+<tr>
+ <td>55</td>
+ <td>_Interrupt55</td>
+ <td>_AltInterrupt55</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>56</td>
+ <td>_Interrupt56</td>
+ <td>_AltInterrupt56</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>57</td>
+ <td>_Interrupt57</td>
+ <td>_AltInterrupt57</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>58</td>
+ <td>_Interrupt58</td>
+ <td>_AltInterrupt58</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>59</td>
+ <td>_Interrupt59</td>
+ <td>_AltInterrupt59</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>60</td>
+ <td>_Interrupt60</td>
+ <td>_AltInterrupt60</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>61</td>
+ <td>_Interrupt61</td>
+ <td>_AltInterrupt61</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>62</td>
+ <td>_RTCCInterrupt</td>
+ <td>_AltRTCCInterrupt</td>
+ <td>Real-Time Clock And Calender</td>
+</tr>
+
+<tr>
+ <td>63</td>
+ <td>_Interrupt63</td>
+ <td>_AltInterrupt63</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>64</td>
+ <td>_Interrupt64</td>
+ <td>_AltInterrupt64</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>65</td>
+ <td>_U1ErrInterrupt</td>
+ <td>_AltU1ErrInterrupt</td>
+ <td>UART1 error interrupt</td>
+</tr>
+
+<tr>
+ <td>66</td>
+ <td>_U2ErrInterrupt</td>
+ <td>_AltU2ErrInterrupt</td>
+ <td>UART2 error interrupt</td>
+</tr>
+
+<tr>
+ <td>67</td>
+ <td>_CRCInterrupt</td>
+ <td>_AltCRCInterrupt</td>
+ <td>Cyclic Redundancy Check</td>
+</tr>
+
+<tr>
+ <td>68</td>
+ <td>_Interrupt68</td>
+ <td>_AltInterrupt68</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>69</td>
+ <td>_Interrupt69</td>
+ <td>_AltInterrupt69</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>70</td>
+ <td>_Interrupt70</td>
+ <td>_AltInterrupt70</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>71</td>
+ <td>_Interrupt71</td>
+ <td>_AltInterrupt71</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>72</td>
+ <td>_Interrupt72</td>
+ <td>_AltInterrupt72</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>73</td>
+ <td>_Interrupt73</td>
+ <td>_AltInterrupt73</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>74</td>
+ <td>_Interrupt74</td>
+ <td>_AltInterrupt74</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>75</td>
+ <td>_Interrupt75</td>
+ <td>_AltInterrupt75</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>76</td>
+ <td>_Interrupt76</td>
+ <td>_AltInterrupt76</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>77</td>
+ <td>_Interrupt77</td>
+ <td>_AltInterrupt77</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>78</td>
+ <td>_Interrupt78</td>
+ <td>_AltInterrupt78</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>79</td>
+ <td>_Interrupt79</td>
+ <td>_AltInterrupt79</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>80</td>
+ <td>_Interrupt80</td>
+ <td>_AltInterrupt80</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>81</td>
+ <td>_Interrupt81</td>
+ <td>_AltInterrupt81</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>82</td>
+ <td>_Interrupt82</td>
+ <td>_AltInterrupt82</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>83</td>
+ <td>_Interrupt83</td>
+ <td>_AltInterrupt83</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>84</td>
+ <td>_Interrupt84</td>
+ <td>_AltInterrupt84</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>85</td>
+ <td>_Interrupt85</td>
+ <td>_AltInterrupt85</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>86</td>
+ <td>_Interrupt86</td>
+ <td>_AltInterrupt86</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>87</td>
+ <td>_Interrupt87</td>
+ <td>_AltInterrupt87</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>88</td>
+ <td>_Interrupt88</td>
+ <td>_AltInterrupt88</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>89</td>
+ <td>_Interrupt89</td>
+ <td>_AltInterrupt89</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>90</td>
+ <td>_Interrupt90</td>
+ <td>_AltInterrupt90</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>91</td>
+ <td>_Interrupt91</td>
+ <td>_AltInterrupt91</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>92</td>
+ <td>_Interrupt92</td>
+ <td>_AltInterrupt92</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>93</td>
+ <td>_Interrupt93</td>
+ <td>_AltInterrupt93</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>94</td>
+ <td>_Interrupt94</td>
+ <td>_AltInterrupt94</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>95</td>
+ <td>_Interrupt95</td>
+ <td>_AltInterrupt95</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>96</td>
+ <td>_Interrupt96</td>
+ <td>_AltInterrupt96</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>97</td>
+ <td>_Interrupt97</td>
+ <td>_AltInterrupt97</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>98</td>
+ <td>_Interrupt98</td>
+ <td>_AltInterrupt98</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>99</td>
+ <td>_Interrupt99</td>
+ <td>_AltInterrupt99</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>100</td>
+ <td>_Interrupt100</td>
+ <td>_AltInterrupt100</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>101</td>
+ <td>_Interrupt101</td>
+ <td>_AltInterrupt101</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>102</td>
+ <td>_Interrupt102</td>
+ <td>_AltInterrupt102</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>103</td>
+ <td>_Interrupt103</td>
+ <td>_AltInterrupt103</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>104</td>
+ <td>_Interrupt104</td>
+ <td>_AltInterrupt104</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>105</td>
+ <td>_Interrupt105</td>
+ <td>_AltInterrupt105</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>106</td>
+ <td>_Interrupt106</td>
+ <td>_AltInterrupt106</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>107</td>
+ <td>_Interrupt107</td>
+ <td>_AltInterrupt107</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>108</td>
+ <td>_Interrupt108</td>
+ <td>_AltInterrupt108</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>109</td>
+ <td>_Interrupt109</td>
+ <td>_AltInterrupt109</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>110</td>
+ <td>_Interrupt110</td>
+ <td>_AltInterrupt110</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>111</td>
+ <td>_Interrupt111</td>
+ <td>_AltInterrupt111</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>112</td>
+ <td>_Interrupt112</td>
+ <td>_AltInterrupt112</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>113</td>
+ <td>_Interrupt113</td>
+ <td>_AltInterrupt113</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>114</td>
+ <td>_Interrupt114</td>
+ <td>_AltInterrupt114</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>115</td>
+ <td>_Interrupt115</td>
+ <td>_AltInterrupt115</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>116</td>
+ <td>_Interrupt116</td>
+ <td>_AltInterrupt116</td>
+ <td>Reserved</td>
+</tr>
+
+<tr>
+ <td>117</td>
+ <td>_Interrupt117</td>
+ <td>_AltInterrupt117</td>
+ <td>Reserved</td>
+</tr>
+
+</table>
+
+</body>
+</html>
