@@ -3,6 +3,8 @@ This codes are not production ready. Some codes are tested and some are not.   A
 
 
 
+
+####################################################################################################
 For project 16bit_binary_clock_explorer16, you will need the following items:
 
 For project overview read the readmeplease.pptx file at ...........\kapitandodingdaga\PIC24FJ128GA010\16bit_binary_clock_explorer16.X
@@ -20,4 +22,6 @@ For project overview read the readmeplease.pptx file at ...........\kapitandodin
 6.) Microchip MCP2200
 
 7.) Serial Terminal such as Real Term
+
+####################################################################################################
 
